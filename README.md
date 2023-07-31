@@ -1,4 +1,4 @@
-# Sites of Metastatic Disease Inference
+# Sites of Metastases Disease Inference
 This repository contains code implementation of Information Extraction (IE) System in the paper **Use of Natural Language Processing to Infer Sites of Metastatic Disease from Radiology Reports at Scale**. The IE system is made up of Named Entity Recognition Model, Assertion Status Detection Model, Relation Extraction Model and Post processing for term normalization. Note that these models are developed using Spark NLP library v3.4.2 and requires a Spark NLP Healthcare license. Please refer https://www.johnsnowlabs.com/spark-nlp-for-research-and-education/ on how to request for a free trial license.
 
 ### Links
