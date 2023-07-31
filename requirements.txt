@@ -1,0 +1,6 @@
+numpy==1.19.5
+pandas
+scikit-learn
+pyspark==3.1.2
+sparknlp==3.4.2
+spark-nlp-display
