@@ -12,8 +12,8 @@ Both Assertion/RE uses the same set of csv files.
 4. get model prediction
 
 ## [Anaconda Prompt]
-		conda activate sparknlp
-		cd dataset
+	conda activate sparknlp
+	cd dataset
 
 ## 1. data preparation
 - prepare your csv files in the required format, see 02csv\csv_example
