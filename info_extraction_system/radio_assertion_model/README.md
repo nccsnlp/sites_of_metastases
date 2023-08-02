@@ -13,8 +13,8 @@ Both Assertion/RE uses the same set of csv files
 5. get model prediction
 
 ## [Anaconda Prompt]
-		conda activate sparknlp
-		cd dataset
+	conda activate sparknlp
+	cd dataset
 		
 ## 1. copy allrelations.csv files from radio_re_model>dataset>02csv folder
 
