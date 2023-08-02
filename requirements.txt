@@ -4,3 +4,4 @@ scikit-learn
 pyspark==3.1.2
 sparknlp==3.4.2
 spark-nlp-display
+tensorflow==1.15
