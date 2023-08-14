@@ -7,11 +7,10 @@ Both Assertion/RE uses the same set of csv files.
 
 ## processing flow:
 1. data preparation 
-2. train/eval model
-3. check model performance
-4. get model prediction
+2. model training and evaluation
+3. model inference
 
-## [Anaconda Prompt]
+## [anaconda prompt]
 	conda activate sparknlp
 	cd dataset
 
@@ -21,15 +20,16 @@ Both Assertion/RE uses the same set of csv files.
 
 - place train csv file in dataset\02csv\csv_train
 - place test csv file in dataset\02csv\csv_test
+- Note that train file will be split into train/dev during spark nlp training.
 
-## 2. model training/evaluation
+## 2. model training and evaluation
 - to preprocess/clean, 
 	use jupyter notebook script: 02data_preprocessing. The generated output file allrelations.csv will also be used for assertion model training.
 	
 - to train/evaluate/run prediction pipeline, 
 	use jupyter notebook script: 03train_radio_re_sites_of_mets
 
-## 3. check model performance (see re_result, re_output subfolders)
+- check model performance (see re_result, re_output subfolders)
 
-## 4. get model prediction (model inference on input csv)
+## 3. model inference
 - use jupyter notebook script: 04predict_radio_re_sites_of_mets
