@@ -6,7 +6,7 @@ Both Assertion/RE uses the same set of csv files
 ## script folder: radio_assertion_model
 
 ## processing flow:
-1. copy allrelations csv file from radio_re_model>dataset>02csv folder (this is the csv converted from xmi files)
+1. refer radio_re_model data preparation steps and copy the allrelations csv file from radio_re_model > dataset > 02csv folder
 2. preprocess into training format, split into train/test by patient
 3. model training and evaluation
 4. model inference
