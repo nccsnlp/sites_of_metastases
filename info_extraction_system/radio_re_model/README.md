@@ -22,10 +22,10 @@ Both Assertion/RE uses the same set of csv files.
 - place test csv file in dataset\02csv\csv_test
 - Note that train file will be split into train/dev during spark nlp training.
 
-## 2. model training and evaluation
 - to preprocess/clean, 
 	use jupyter notebook script: 02data_preprocessing. The generated output file allrelations.csv will also be used for assertion model training.
-	
+
+## 2. model training and evaluation
 - to train/evaluate/run prediction pipeline, 
 	use jupyter notebook script: 03train_radio_re_sites_of_mets
 
