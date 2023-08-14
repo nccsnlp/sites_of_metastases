@@ -33,3 +33,4 @@ Both Assertion/RE uses the same set of csv files.
 
 ## 3. model inference
 - use jupyter notebook script: 04predict_radio_re_sites_of_mets
+- this notebook includes the post processing steps for term normalization
