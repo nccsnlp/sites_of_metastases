@@ -1,0 +1,3 @@
+report_id,study_id,conclusion,true_site_of_mets
+,,,"['hepatic', 'cervical lymph node', 'bone', 'breast']"
+,,,"['thoracic lymph node', 'hepatic', 'cervical lymph node', 'bone', 'breast', 'axillary lymph node']"
